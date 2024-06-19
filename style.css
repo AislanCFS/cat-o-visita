@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around; /* Distribui as informações igualmente */
+    width: 100%; /* Para ocupar toda a largura disponível */
+}
+
+.infoflex {
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px; 
+    
+}
+
+.cinza{
+    color: hsl(227, 10%, 46%)
+    ;
+}
+
+.barreiras{
+    padding-top: 10px;
+}
